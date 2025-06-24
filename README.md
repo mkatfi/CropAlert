@@ -26,7 +26,7 @@ To **maximize clarity and deployment readiness**, I'll merge your documentation 
 
 ```bash
 # Clone the repo
-git clone <repo-url>
+git clone git@github.com:mkatfi/CropAlert.git
 cd CropAlert
 
 # Backend
