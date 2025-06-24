@@ -1,0 +1,103 @@
+Here's a **concise and professional summary** of your CropAlert system:
+
+---
+
+# 🌱 CropAlert – Smart Agricultural Alert & Monitoring Platform
+
+**CropAlert** is a full-stack, real-time agricultural monitoring system designed to help **farmers**, **agronomists**, and **organizations** track crop conditions, manage alerts, and make data-driven decisions using **weather intelligence** and **geolocation**.
+
+---
+
+## 🔑 Key Features
+
+### 🛑 Alert Management
+
+* Create, categorize, and monitor alerts (low → critical)
+* Real-time updates via **Socket.IO**
+* Map-based visualization and history tracking
+
+### 🌦️ Weather Intelligence
+
+* Integrated with **Visual Crossing Weather API**
+* Real-time, forecast, and location-based data
+* Weather-enhanced map markers and dashboards
+
+### 🗺️ Interactive Mapping
+
+* Built with **Leaflet + OpenStreetMap**
+* Clickable zones and GPS support
+* Real-time weather overlays and severity indicators
+
+### 🔐 User & Role Management
+
+* JWT-based auth with **Farmers** and **Agronomists**
+* Secure route/API access and user profile management
+
+### 📍 Zone Management
+
+* Define agricultural zones using GPS coordinates
+* User-specific zone tracking and filtering
+
+---
+
+## ⚙️ Technical Overview
+
+### Frontend (React + TypeScript)
+
+* React 19, Tailwind CSS, Framer Motion
+* React Leaflet, Lucide, Axios, Hot Toast
+* Context-based state and real-time updates via Socket.IO
+
+### Backend (NestJS + TypeScript)
+
+* REST API with **NestJS**
+* PostgreSQL + TypeORM
+* JWT Auth, Bcrypt hashing, Class-validator
+* Real-time alerts with **Socket.IO**
+
+### Infrastructure
+
+* **Dockerized** multi-service setup
+* `docker-compose` for orchestration
+* `.env`-based configuration and volume mounting
+
+---
+
+## 💡 User Experience
+
+* **Responsive dashboard**: Alerts, weather, zones
+* **Weather-aware maps**: Interactive and real-time
+* **Smart notifications**: Location- and severity-based
+* **Zone-focused workflows**: Create, track, manage zones
+* **Multi-role support**: Tailored dashboards for user roles
+
+---
+
+## 🧱 Developer Features
+
+* TypeScript, ESLint, modular structure
+* JWT security, CORS, input validation
+* Optimized API calls, lazy loading, caching
+* Dockerized with health checks, volume & network config
+* Database migrations, schema sync, and optimization
+
+---
+
+## 📊 Use Cases
+
+* **Farmers**: Monitor fields, receive live alerts, track weather
+* **Agronomists**: Analyze patterns, create alerts, guide farmers
+* **Organizations**: Oversee regions, coordinate interventions, gather data
+
+---
+
+## 🧪 Benefits
+
+* ✅ **Scalable**: Microservice-ready, modular codebase
+* ✅ **Maintainable**: Clean, typed, testable architecture
+* ✅ **Reliable**: Real-time sync, robust auth, error handling
+
+---
+
+**CropAlert** bridges modern web tech and agriculture, enabling smarter, faster, and more resilient farming decisions through real-time weather, maps, and alert systems.
+
